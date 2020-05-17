@@ -38,9 +38,9 @@ class App extends React.Component {
               ...snapshot.data()
             }
           }, () => {
-            console.log(this.state);
+            // console.log(this.state); // as callback function to wait until [await finish]
           });
-          console.log(this.state);
+
         });
 
       } else {
