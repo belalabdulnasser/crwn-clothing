@@ -39,7 +39,7 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
     }
   }
 
-  console.log(snapShot);
+  // console.log(snapShot);
 
   return userRef;
 };
